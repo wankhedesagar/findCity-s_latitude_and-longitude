@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(226, 216, 224);
+  /* background-color: rgb(226, 216, 224); */
 }
 
 .container {
@@ -12,7 +12,14 @@ body {
   height: 300px;
   margin: 20px auto;
   border: 1px solid green;
-  background-color: azure;
+  background-color: #dfdfdf;
+  border-radius: 5px;
+}
+
+.container h1 {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 form {
@@ -26,9 +33,14 @@ form input {
   width: 350px;
   margin: 15px auto;
   font-size: 16px;
+  border: none;
 }
 ::placeholder {
   font-size: 16px;
+}
+form input:focus {
+  outline: none;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.9);
 }
 
 .btn {
@@ -40,6 +52,8 @@ form input {
   background-color: blueviolet;
   border-radius: 4px;
   font-weight: bold;
+  color: white;
+  cursor: pointer;
 }
 
 .print {
