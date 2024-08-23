@@ -20,3 +20,24 @@ form {
   flex-direction: column;
   margin-top: 10px;
 }
+
+form input {
+  padding: 8px;
+  width: 350px;
+  margin: 15px auto;
+  font-size: 16px;
+}
+::placeholder {
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px 16px;
+  margin: 8px auto;
+  width: 127px;
+  border: none;
+  outline: none;
+  background-color: blueviolet;
+  border-radius: 4px;
+  font-weight: bold;
+}
