@@ -6,3 +6,17 @@
 body {
   background-color: rgb(226, 216, 224);
 }
+
+.container {
+  width: 500px;
+  height: 300px;
+  margin: 20px auto;
+  border: 1px solid green;
+  background-color: azure;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
